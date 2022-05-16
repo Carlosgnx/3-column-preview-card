@@ -34,7 +34,7 @@ main {
 .container__card * {
   margin-bottom: 3rem;
 }
-.container__card h2 {
+.container__card h1 {
   color: var(--very-light-gray);
   font-size: 4rem;
 }
@@ -57,15 +57,21 @@ main {
   border-bottom-left-radius: 1rem;
 }
 .container__card button {
+  cursor: pointer;
   margin-bottom: 0.5rem;
+  border: 0.2rem solid var(--transparent-white);
   background-color: var(--very-light-gray);
   font-size: 1.5rem;
   font-weight: 700;
-  padding: 1.5rem;
+  padding: 1.3rem;
   padding-left: 3rem;
   padding-right: 3rem;
-  border: none;
   border-radius: 50px;
+}
+.container__card button:hover {
+  border: 0.2rem solid var(--very-light-gray);
+  background-color: transparent;
+  color: white;
 }
 .card--1 button {
   color: var(--bright-orange);
